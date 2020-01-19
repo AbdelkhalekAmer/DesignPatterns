@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{379E47BB-6394-4A3C-B43C-7F29C942A476}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{4684E94F-E760-4B0D-88D9-D0CDCB6D41A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{379E47BB-6394-4A3C-B43C-7F29C942A476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{379E47BB-6394-4A3C-B43C-7F29C942A476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{379E47BB-6394-4A3C-B43C-7F29C942A476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4684E94F-E760-4B0D-88D9-D0CDCB6D41A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4684E94F-E760-4B0D-88D9-D0CDCB6D41A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4684E94F-E760-4B0D-88D9-D0CDCB6D41A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4684E94F-E760-4B0D-88D9-D0CDCB6D41A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

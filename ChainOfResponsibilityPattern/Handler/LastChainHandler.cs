@@ -4,9 +4,7 @@ namespace ChainOfResponsibilityPattern.Handler
 {
     public class LastChainHandler : Handler
     {
-        private static readonly LastChainHandler _instance = new LastChainHandler();
-
-        public static LastChainHandler Instance { get => _instance; }
+        public static LastChainHandler Instance { get; } = new LastChainHandler();
 
         static LastChainHandler()
         {
